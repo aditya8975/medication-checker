@@ -215,11 +215,6 @@ theme: {
 }
 ```
 
-### Change Branding
-Edit `src/components/Header.jsx` to update:
-- App name
-- Subtitle
-- Logo/icon
 
 ## API Integration
 
@@ -256,42 +251,13 @@ Edit `src/components/Header.jsx` to update:
 - ✅ No personal health data collected
 - ✅ GDPR compliant
 
-## Browser Support
 
-- Chrome/Edge 90+
-- Firefox 88+
-- Safari 14+
-- Mobile browsers (iOS Safari, Chrome Mobile)
 
 ## Medical Disclaimer
 
 ⚠️ **Important**: This tool is for educational purposes only and does not replace professional medical advice. Always consult with a qualified healthcare provider before making any changes to your medications.
 
-## Troubleshooting
 
-### API Key Not Working
-- Verify the key is copied correctly
-- Check for extra spaces or characters
-- Ensure your Groq account has active API access
-- Check rate limits haven't been exceeded
-
-### Medications Not Appearing
-- Verify the medication name in the database
-- Check spelling and capitalization
-- Try searching for the drug class instead
-
-### Slow Performance
-- Check internet connection
-- Close unnecessary browser tabs
-- Clear browser cache
-- Check Groq API status
-
-### Build Errors
-```bash
-# Clear node_modules and reinstall
-rm -rf node_modules package-lock.json
-npm install
-```
 
 ## Contributing
 
@@ -305,22 +271,7 @@ Contributions are welcome! Feel free to:
 
 MIT License - feel free to use this project for personal or commercial purposes.
 
-## Support
 
-For issues, questions, or suggestions:
-- Check the troubleshooting section
-- Review the code comments
-- Check Groq API documentation
 
-## Credits
-
-- Built with [React](https://react.dev)
-- Styled with [Tailwind CSS](https://tailwindcss.com)
-- Icons from [Lucide React](https://lucide.dev)
-- AI powered by [Groq](https://groq.com)
 
 ---
-
-**Version**: 1.0.0  
-**Last Updated**: February 2026  
-**Status**: Production Ready
