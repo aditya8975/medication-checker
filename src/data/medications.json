@@ -1,0 +1,187 @@
+[
+  {
+    "id": 1,
+    "name": "Warfarin",
+    "class": "Anticoagulant",
+    "interactions": [
+      {
+        "drug": "Aspirin",
+        "severity": "Severe",
+        "reason": "Both thin blood and increase bleeding risk significantly"
+      },
+      {
+        "drug": "Ibuprofen",
+        "severity": "Severe",
+        "reason": "NSAIDs increase bleeding risk when combined with warfarin"
+      },
+      {
+        "drug": "Paracetamol",
+        "severity": "Mild",
+        "reason": "Generally safe but monitor for excessive bleeding"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Metformin",
+    "class": "Antidiabetic",
+    "interactions": [
+      {
+        "drug": "Alcohol",
+        "severity": "Moderate",
+        "reason": "Increases risk of lactic acidosis"
+      },
+      {
+        "drug": "Contrast Dye",
+        "severity": "Severe",
+        "reason": "Increased risk of kidney damage"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Lisinopril",
+    "class": "ACE Inhibitor",
+    "interactions": [
+      {
+        "drug": "Potassium Supplements",
+        "severity": "Moderate",
+        "reason": "Risk of hyperkalemia (high potassium levels)"
+      },
+      {
+        "drug": "NSAIDs",
+        "severity": "Moderate",
+        "reason": "May reduce blood pressure control and kidney function"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Atorvastatin",
+    "class": "Statin",
+    "interactions": [
+      {
+        "drug": "Erythromycin",
+        "severity": "Moderate",
+        "reason": "Increases statin levels, risk of muscle damage"
+      },
+      {
+        "drug": "Grapefruit Juice",
+        "severity": "Mild",
+        "reason": "Increases statin concentration in blood"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Sertraline",
+    "class": "SSRI Antidepressant",
+    "interactions": [
+      {
+        "drug": "Tramadol",
+        "severity": "Severe",
+        "reason": "Risk of serotonin syndrome"
+      },
+      {
+        "drug": "Alcohol",
+        "severity": "Moderate",
+        "reason": "Increases drowsiness and impairs judgment"
+      },
+      {
+        "drug": "NSAIDs",
+        "severity": "Mild",
+        "reason": "Slightly increases bleeding risk"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Metoprolol",
+    "class": "Beta Blocker",
+    "interactions": [
+      {
+        "drug": "Verapamil",
+        "severity": "Severe",
+        "reason": "Risk of severe heart rhythm problems"
+      },
+      {
+        "drug": "Clonidine",
+        "severity": "Moderate",
+        "reason": "Risk of rebound hypertension if stopped abruptly"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Levothyroxine",
+    "class": "Thyroid Hormone",
+    "interactions": [
+      {
+        "drug": "Iron Supplements",
+        "severity": "Moderate",
+        "reason": "Reduces levothyroxine absorption"
+      },
+      {
+        "drug": "Calcium Supplements",
+        "severity": "Moderate",
+        "reason": "Reduces levothyroxine absorption"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Omeprazole",
+    "class": "Proton Pump Inhibitor",
+    "interactions": [
+      {
+        "drug": "Clopidogrel",
+        "severity": "Moderate",
+        "reason": "Reduces effectiveness of clopidogrel"
+      },
+      {
+        "drug": "Vitamin B12",
+        "severity": "Mild",
+        "reason": "Long-term use may reduce B12 absorption"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Amoxicillin",
+    "class": "Antibiotic",
+    "interactions": [
+      {
+        "drug": "Oral Contraceptives",
+        "severity": "Mild",
+        "reason": "May reduce contraceptive effectiveness"
+      },
+      {
+        "drug": "Methotrexate",
+        "severity": "Moderate",
+        "reason": "Increases methotrexate toxicity"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Aspirin",
+    "class": "NSAID",
+    "interactions": [
+      {
+        "drug": "Ibuprofen",
+        "severity": "Moderate",
+        "reason": "Increased risk of GI bleeding and ulcers"
+      },
+      {
+        "drug": "Warfarin",
+        "severity": "Severe",
+        "reason": "Significantly increases bleeding risk"
+      },
+      {
+        "drug": "Naproxen",
+        "severity": "Moderate",
+        "reason": "Combined NSAIDs increase GI side effects"
+      }
+    ]
+  }
+]
